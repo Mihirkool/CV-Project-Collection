@@ -42,7 +42,7 @@ class handDetector():
                 # print(id, cx, cy)  # print id of location of all 20 points
                 lmList.append([id, cx, cy])
                 if draw:
-                    cv2.circle(img, (cx, cy), 6, (255, 0, 255), cv2.FILLED)  # pink dot with 6px radius
+                    cv2.circle(img, (cx, cy), 6, (255, 0, 0), cv2.FILLED)  # pink dot with 6px radius
         return lmList
 
 def main():
